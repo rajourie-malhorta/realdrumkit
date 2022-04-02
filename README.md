@@ -1,3 +1,3 @@
 # realdrumkit
 
-[](https://realdrumkit.herokuapp.com)
+https://realdrumkit.herokuapp.com
