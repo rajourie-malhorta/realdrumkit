@@ -1,0 +1,100 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.parentDiv {
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.keys2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40vh;
+
+}
+
+.key {
+    font-family: Raleway;
+    border: 3px solid #222;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    transition: all 0.07s;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,0.9);
+}
+
+
+.inplay {
+    transform:scale(0.9);
+    border-color: #EAA15F;
+    box-shadow: 0 0 10px #EAA15F;
+}
+
+span {
+    display: block;
+    font-size: 40px;
+    color: #EAA15F;
+}
+small {
+    color: #fff;
+    font-size: 12px;
+}
+.wrapper {
+    display: flex;
+    bottom: 10px;
+    width: 100%;
+
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.typing-demo a {
+    color: #EAA15F;
+}
+
+.typing-demo {
+    width: 26ch;
+    animation: typing 2s steps(26), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    font-family: monospace;
+    font-size: 1rem;
+    color: #fff;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
